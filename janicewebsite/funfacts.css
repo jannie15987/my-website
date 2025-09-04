@@ -1,0 +1,113 @@
+/* General styling for the body */
+body {
+    background-image: url('springbackground.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    color: white; 
+}
+
+/* Header styling */
+header {
+    background-color: #f9bae2; 
+    padding: 10px 0; 
+    font-family: 'Arial', sans-serif; 
+    text-align: center; 
+}
+
+/* Navigation list styling */
+nav ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+/* Navigation list item styling */
+nav ul li {
+    display: inline; 
+    margin: 0 15px; 
+}
+
+/* Navigation link styling */
+nav ul li a {
+    color: #fff; 
+    text-decoration: none; 
+    font-size: 16px; 
+}
+
+/* Container Styling */
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: #fffafc; 
+    padding: 2rem;
+    border-radius: 20px; 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    color: black; 
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Section Heading */
+.container h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #c94e96;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+/* Dance Heading */
+.container h2 {
+    color: #8c3d72;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+/* Paragraph Styling */
+.container p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-bottom: 1.2rem;
+}
+
+/* Add a subtle hover effect for interactivity */
+.container:hover {
+    transform: translateY(-2px);
+    transition: transform 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.photo-header {
+display: block;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  color: #ff69b4;
+  margin-bottom: 1rem;
+  border: 4px dashed #ffc0cb;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff8f8;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.photo-gallery img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo-gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}

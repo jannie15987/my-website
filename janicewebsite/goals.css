@@ -1,0 +1,36 @@
+/* General styling for the body */
+body {
+    background-image: url('springbackground.jpg'); /* Set a full-page background image */
+    background-size: cover; /* Ensure the background covers the entire page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-attachment: fixed; /* Keep the background fixed during scrolling */
+    color: white; /* Set text color to white for better contrast on dark background */
+}
+
+/* Header styling */
+header {
+    background-color: #f9bae2; 
+    padding: 10px 0; /* Add vertical padding for spacing */
+    font-family: 'Arial', sans-serif; /* Set font for the header */
+    text-align: center; /* Center-align the content in the header */
+}
+
+/* Navigation list styling */
+nav ul {
+    list-style: none; /* Remove default bullet points from list */
+    padding: 0; /* Remove padding for cleaner layout */
+}
+
+/* Navigation list item styling */
+nav ul li {
+    display: inline; /* Display navigation items in a row */
+    margin: 0 15px; /* Add space between navigation items */
+}
+
+/* Navigation link styling */
+nav ul li a {
+    color: #fff; /* White color for navigation links */
+    text-decoration: none; /* Remove underlines from the links */
+    font-size: 16px; /* Set the font size for navigation links */
+}

@@ -1,0 +1,97 @@
+body {
+    background-image: url('springbackground.jpg');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+
+/* Header styling */
+header {
+    background-color: #f9bae2; /* Dark brown background for the header */
+    padding: 10px 0; /* Add vertical padding for spacing */
+    font-family: 'Arial', sans-serif; /* Set font for the header */
+    text-align: center; /* Center-align the content in the header */
+}
+/* Navigation list styling */
+nav ul {
+    list-style: none; /* Remove default bullet points from list */
+    padding: 0; /* Remove padding for cleaner layout */
+}
+
+/* Navigation list item styling */
+nav ul li {
+    display: inline; /* Display navigation items in a row */
+    margin: 0 15px; /* Add space between navigation items */
+}
+
+/* Navigation link styling */
+nav ul li a {
+    color: #fff; /* White color for navigation links */
+    text-decoration: none; /* Remove underlines from the links */
+    font-size: 16px; /* Set the font size for navigation links */
+}
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .contact-info {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.25rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+  }
+  
+  .job h3 {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  
+  .date {
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  ul {
+    padding-left: 1.2rem;
+  }
+  
+  .skills .columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .skills .columns > div {
+    flex: 1;
+    min-width: 250px;
+  }
+  

@@ -1,0 +1,102 @@
+/* General styling for the body */
+body {
+    background-image: url('springbackground.jpg'); /* Set a full-page background image */
+    background-size: cover; /* Ensure the background covers the entire page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-attachment: fixed; /* Keep the background fixed during scrolling */
+    color: white; /* Set text color to white for better contrast on dark background */
+}
+
+/* Header styling */
+header {
+    background-color: #f9bae2; 
+    padding: 10px 0; /* Add vertical padding for spacing */
+    font-family: 'Arial', sans-serif; /* Set font for the header */
+    text-align: center; /* Center-align the content in the header */
+}
+
+/* Navigation list styling */
+nav ul {
+    list-style: none; /* Remove default bullet points from list */
+    padding: 0; /* Remove padding for cleaner layout */
+}
+
+/* Navigation list item styling */
+nav ul li {
+    display: inline; /* Display navigation items in a row */
+    margin: 0 15px; /* Add space between navigation items */
+}
+
+/* Navigation link styling */
+nav ul li a {
+    color: #fff; /* White color for navigation links */
+    text-decoration: none; /* Remove underlines from the links */
+    font-size: 16px; /* Set the font size for navigation links */
+}
+
+/* Side-by-side layout */
+.welcome-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap; 
+    background-color: rgba(173, 126, 187, 0.85);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.profile-photo {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px double #fbcfe8; 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    background: conic-gradient(
+        from 180deg,
+        #fbcfe8 0deg 90deg,
+        #f5d0fe 90deg 180deg,
+        #e0aaff 180deg 270deg,
+        #fbcfe8 270deg 360deg
+    );
+    padding: 8px;
+}
+
+
+/* Hero section styling */
+.hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.hero-content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+.hero-content p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+/* Buttons */
+.hero-buttons .btn {
+    background-color: #fcc7e1; 
+    color: #fff;
+    padding: 15px 25px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+.hero-buttons .btn:hover {
+    background-color: #f9a5ce;
+}
